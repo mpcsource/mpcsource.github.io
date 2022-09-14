@@ -1,0 +1,91 @@
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    background: #ccc5b9;
+    --space-amt: 6000px;
+}
+
+.heading {
+    background-color: rgb(8, 8, 8);
+    color: #fffcf2;
+    padding-top: 65px;
+    line-height: 30px;
+    font-family: "Bebas Neue";
+    display: block;
+
+}
+
+.get_whitespace { margin-top: var(--space-amt); }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homebuttons-text {
+    color: #252422;
+
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    transition: 0.1s;
+    font-family: "Bebas Neue";
+    font-size:40px;
+    font-weight:bold;
+    text-decoration-line: none;
+}
+
+
+
+.homebuttons-text:hover {
+    color:#ccc5b9;
+}
+
+.homebuttons-bg {
+    background: #a0998c;
+    color: #252425;
+
+    margin: 10px;
+
+    cursor:pointer;
+
+    border: 2px groove #252422;
+    border-radius: 12px;
+
+    display:inline-block;
+
+    
+
+    transition: 0.1s;
+}
+
+.homebuttons-bg:hover {
+    background-color: #252422;
+    color:#ccc5b9;
+    text-align: center;
+}
+
+.homebuttons-bg:active {
+    position:relative;
+    top:1px;
+    text-align: center;
+}
+
+.my-pic {
+    max-width: max-content;
+    max-height: max-content;
+}
+
+
+.portfoliosec {
+    font-size: 20px;
+}
+
+.journeysec {
+
+}
