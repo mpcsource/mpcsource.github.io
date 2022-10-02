@@ -72,9 +72,20 @@ ul > li {
     margin: 10px;
 }
 
+@keyframes homebuttons-text-animation {
+    from {
+        top: 10px;
+    }
+    to {
+        top: 20px;
+    }
+}
 
 .homebuttons-text:hover {
     color:#ccc5b9;
+    top: 10px;
+    animation-name: homebuthomebuttons-text-animation;
+    animation-duration: 1s;
 }
 
 .homebuttons-bg {
@@ -101,21 +112,20 @@ ul > li {
             width: 100%;
         }
     }
-
-
-    
-
 }
+
 
 .homebuttons-bg:hover {
     background-color: #252422;
     color:#ccc5b9;
     text-align: center;
+    
 }
+
+
 
 .homebuttons-bg:active {
     position:relative;
-    top:1px;
     text-align: center;
 }
 
@@ -130,7 +140,7 @@ ul > li {
 }
 
 .certificationssec {
-    
+
 }
 
 .journeysec {
